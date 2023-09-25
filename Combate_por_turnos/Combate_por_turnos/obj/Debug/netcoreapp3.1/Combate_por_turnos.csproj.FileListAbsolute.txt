@@ -1,0 +1,28 @@
+C:\Users\Alumno\Downloads\Combate_por_turnos\Combate_por_turnos\bin\Debug\netcoreapp3.1\Combate_por_turnos.exe
+C:\Users\Alumno\Downloads\Combate_por_turnos\Combate_por_turnos\bin\Debug\netcoreapp3.1\Combate_por_turnos.deps.json
+C:\Users\Alumno\Downloads\Combate_por_turnos\Combate_por_turnos\bin\Debug\netcoreapp3.1\Combate_por_turnos.runtimeconfig.json
+C:\Users\Alumno\Downloads\Combate_por_turnos\Combate_por_turnos\bin\Debug\netcoreapp3.1\Combate_por_turnos.runtimeconfig.dev.json
+C:\Users\Alumno\Downloads\Combate_por_turnos\Combate_por_turnos\bin\Debug\netcoreapp3.1\Combate_por_turnos.dll
+C:\Users\Alumno\Downloads\Combate_por_turnos\Combate_por_turnos\bin\Debug\netcoreapp3.1\Combate_por_turnos.pdb
+C:\Users\Alumno\Downloads\Combate_por_turnos\Combate_por_turnos\obj\Debug\netcoreapp3.1\Combate_por_turnos.csproj.AssemblyReference.cache
+C:\Users\Alumno\Downloads\Combate_por_turnos\Combate_por_turnos\obj\Debug\netcoreapp3.1\Combate_por_turnos.AssemblyInfoInputs.cache
+C:\Users\Alumno\Downloads\Combate_por_turnos\Combate_por_turnos\obj\Debug\netcoreapp3.1\Combate_por_turnos.AssemblyInfo.cs
+C:\Users\Alumno\Downloads\Combate_por_turnos\Combate_por_turnos\obj\Debug\netcoreapp3.1\Combate_por_turnos.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\Downloads\Combate_por_turnos\Combate_por_turnos\obj\Debug\netcoreapp3.1\Combate_por_turnos.dll
+C:\Users\Alumno\Downloads\Combate_por_turnos\Combate_por_turnos\obj\Debug\netcoreapp3.1\Combate_por_turnos.pdb
+C:\Users\Alumno\Downloads\Combate_por_turnos\Combate_por_turnos\obj\Debug\netcoreapp3.1\Combate_por_turnos.genruntimeconfig.cache
+C:\Users\andre\OneDrive - ESNE\ESNE\1er año\2do Semestre\Introduccion a la Programacion de Videojuegos y Entornos Virtuales\Visual\Combate_por_turnos\Combate_por_turnos\bin\Debug\netcoreapp3.1\Combate_por_turnos.exe
+C:\Users\andre\OneDrive - ESNE\ESNE\1er año\2do Semestre\Introduccion a la Programacion de Videojuegos y Entornos Virtuales\Visual\Combate_por_turnos\Combate_por_turnos\bin\Debug\netcoreapp3.1\Combate_por_turnos.deps.json
+C:\Users\andre\OneDrive - ESNE\ESNE\1er año\2do Semestre\Introduccion a la Programacion de Videojuegos y Entornos Virtuales\Visual\Combate_por_turnos\Combate_por_turnos\bin\Debug\netcoreapp3.1\Combate_por_turnos.runtimeconfig.json
+C:\Users\andre\OneDrive - ESNE\ESNE\1er año\2do Semestre\Introduccion a la Programacion de Videojuegos y Entornos Virtuales\Visual\Combate_por_turnos\Combate_por_turnos\bin\Debug\netcoreapp3.1\Combate_por_turnos.runtimeconfig.dev.json
+C:\Users\andre\OneDrive - ESNE\ESNE\1er año\2do Semestre\Introduccion a la Programacion de Videojuegos y Entornos Virtuales\Visual\Combate_por_turnos\Combate_por_turnos\bin\Debug\netcoreapp3.1\Combate_por_turnos.dll
+C:\Users\andre\OneDrive - ESNE\ESNE\1er año\2do Semestre\Introduccion a la Programacion de Videojuegos y Entornos Virtuales\Visual\Combate_por_turnos\Combate_por_turnos\bin\Debug\netcoreapp3.1\Combate_por_turnos.pdb
+C:\Users\andre\OneDrive - ESNE\ESNE\1er año\2do Semestre\Introduccion a la Programacion de Videojuegos y Entornos Virtuales\Visual\Combate_por_turnos\Combate_por_turnos\obj\Debug\netcoreapp3.1\Combate_por_turnos.csproj.AssemblyReference.cache
+C:\Users\andre\OneDrive - ESNE\ESNE\1er año\2do Semestre\Introduccion a la Programacion de Videojuegos y Entornos Virtuales\Visual\Combate_por_turnos\Combate_por_turnos\obj\Debug\netcoreapp3.1\Combate_por_turnos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\andre\OneDrive - ESNE\ESNE\1er año\2do Semestre\Introduccion a la Programacion de Videojuegos y Entornos Virtuales\Visual\Combate_por_turnos\Combate_por_turnos\obj\Debug\netcoreapp3.1\Combate_por_turnos.AssemblyInfoInputs.cache
+C:\Users\andre\OneDrive - ESNE\ESNE\1er año\2do Semestre\Introduccion a la Programacion de Videojuegos y Entornos Virtuales\Visual\Combate_por_turnos\Combate_por_turnos\obj\Debug\netcoreapp3.1\Combate_por_turnos.AssemblyInfo.cs
+C:\Users\andre\OneDrive - ESNE\ESNE\1er año\2do Semestre\Introduccion a la Programacion de Videojuegos y Entornos Virtuales\Visual\Combate_por_turnos\Combate_por_turnos\obj\Debug\netcoreapp3.1\Combate_por_turnos.csproj.CoreCompileInputs.cache
+C:\Users\andre\OneDrive - ESNE\ESNE\1er año\2do Semestre\Introduccion a la Programacion de Videojuegos y Entornos Virtuales\Visual\Combate_por_turnos\Combate_por_turnos\obj\Debug\netcoreapp3.1\Combate_por_turnos.dll
+C:\Users\andre\OneDrive - ESNE\ESNE\1er año\2do Semestre\Introduccion a la Programacion de Videojuegos y Entornos Virtuales\Visual\Combate_por_turnos\Combate_por_turnos\obj\Debug\netcoreapp3.1\Combate_por_turnos.pdb
+C:\Users\andre\OneDrive - ESNE\ESNE\1er año\2do Semestre\Introduccion a la Programacion de Videojuegos y Entornos Virtuales\Visual\Combate_por_turnos\Combate_por_turnos\obj\Debug\netcoreapp3.1\Combate_por_turnos.genruntimeconfig.cache
+C:\Users\Alumno\Downloads\Combate_por_turnos\Combate_por_turnos\obj\Debug\netcoreapp3.1\Combate_por_turnos.GeneratedMSBuildEditorConfig.editorconfig
