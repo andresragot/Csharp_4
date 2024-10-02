@@ -11,8 +11,7 @@ namespace Combate_por_turnos
 
         
         public Mago()
-        {
-            
+        {   
             ManaMaximo = 10;
             Random rng = new Random();
             Console.WriteLine("Creando jugador...");
@@ -27,11 +26,11 @@ namespace Combate_por_turnos
             Inteligencia += (int) (Inteligencia * 0.3f);
             Mana = ManaMaximo;
             Stamina = Mana;
-            for(int i = 0; i<DañoHechizos.Length; i++)
+            
+            for (int i = 0; i<DañoHechizos.Length; i++)
             {
                 DañoHechizos[i] = Inteligencia * PrecioAtaques[i] + (i + 1);
             }
-
         }
 
         public override string Descriptor()
