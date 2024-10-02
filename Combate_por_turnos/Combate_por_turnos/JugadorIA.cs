@@ -29,8 +29,11 @@ namespace Combate_por_turnos
             {
                 respuesta = rng.Next(1, luchadorActual.Nivel);
 
-            } while (luchadorActual.PrecioAtaques[respuesta - 1] > luchadorActual.Stamina);
+            } 
+            while (luchadorActual.PrecioAtaques[respuesta - 1] > luchadorActual.Stamina);
+            
             Console.WriteLine("La IA escogió el numero " + respuesta);
+            
             return respuesta;
         }
     }
