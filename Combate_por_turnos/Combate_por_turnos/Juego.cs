@@ -28,7 +28,6 @@ namespace Combate_por_turnos
             int opcion = Menu();
             do
             {
-
                 switch (opcion)
                 {
                     case 1:
@@ -53,7 +52,8 @@ namespace Combate_por_turnos
 
                 }
                 opcion = Menu();
-            } while (opcion < 3);
+            } 
+            while (opcion < 3);
         }
 
         static int Menu() //Función para mostrar en pantalla el menu
@@ -73,7 +73,9 @@ namespace Combate_por_turnos
                     Console.WriteLine("Opción incorrecta, inserte un valor entre 1 y 3. \n Pulse una tecla para continuar");
                     Console.ReadKey();
                 }
-            } while (!numOpcion || opcion < 1 || opcion > 3);
+            } 
+            while (!numOpcion || opcion < 1 || opcion > 3);
+            
             return opcion;
         }
 
@@ -89,10 +91,11 @@ namespace Combate_por_turnos
                 {
                     Console.WriteLine("No es una respuesta valida.");
                 }
-            } while (!Opcion || numeroPersonaje < 1 || numeroPersonaje > 2);
+            } 
+            while (!Opcion || numeroPersonaje < 1 || numeroPersonaje > 2);
 
 
-            if(numeroPersonaje == 1)
+            if (numeroPersonaje == 1)
             {
                 Mago mago = new Mago();
                 luchadores.Add(mago);
@@ -100,7 +103,7 @@ namespace Combate_por_turnos
                 Console.WriteLine(mago.Descriptor());
                 Console.ReadKey();
             }
-            else if(numeroPersonaje == 2)
+            else if (numeroPersonaje == 2)
             {
                 Guerrero guerrero = new Guerrero();
                 luchadores.Add(guerrero);
@@ -129,7 +132,9 @@ namespace Combate_por_turnos
                 {
                     Console.WriteLine("No es una respuesta valida.");
                 }
-            } while (!numOpcion || respuesta < 1 || respuesta > 2);
+            } 
+            while (!numOpcion || respuesta < 1 || respuesta > 2);
+            
             if(respuesta == 1)
             {
                 HayJugadorIA = false;
@@ -153,18 +158,20 @@ namespace Combate_por_turnos
                 Console.WriteLine("los luchadores se tiene que escoger en el orden de los jugadores, el jugador 1 tendrá al luchador 1");
                 Console.WriteLine("Escoge un luchador");
                 numOpcion = int.TryParse(Console.ReadLine(), out respuesta);
+                
                 if (!numOpcion || respuesta < 1 || respuesta > array.Length)
                 {
                     Console.WriteLine("No es una respuesta valida.");
-                }
-                if (luchador1 != null)
+                }    
+                else if (luchador1 != null)
                 {
                     if (luchador1 == array[respuesta - 1])
                     {
                         Console.WriteLine("Escogiste el mismo luchador");
                     }
                 }
-            } while (!numOpcion || respuesta < 1 || respuesta > array.Length || (luchador1 !=null && luchador1 == array[respuesta-1]));
+            } 
+            while (!numOpcion || respuesta < 1 || respuesta > array.Length || (luchador1 !=null && luchador1 == array[respuesta-1]));
 
             return respuesta - 1;
         }
@@ -216,23 +223,21 @@ namespace Combate_por_turnos
                     Console.WriteLine(luchador1.DescriptorBatalla());
                     
                     int decision = jugador1.AtaqueRestaurar();
-                    if(decision == 1)
+                    if (decision == 1)
                     {
                         luchador1.Atacar(jugador1.EscogerAtaque(), luchador2);
                         if (luchador2.Vida <= 0)
                         {
                             ganar = true;
                         }
-
                     }
                     else
                     {
                         luchador1.RestaurarVida();
                     }
                     a = 2;
-
                 }
-                else if(a == 2 && HayJugadorIA)
+                else if (a == 2 && HayJugadorIA)
                 {
                     luchador2.Jugar();
                     Console.WriteLine("Turno de la " + jugadorIA.Nombre);
@@ -245,7 +250,6 @@ namespace Combate_por_turnos
                         {
                             ganar = true;
                         }
-
                     }
                     else
                     {
@@ -266,7 +270,6 @@ namespace Combate_por_turnos
                         {
                             ganar = true;
                         }
-
                     }
                     else
                     {
@@ -275,9 +278,10 @@ namespace Combate_por_turnos
                     a = 1;
                 }
                 Console.ReadKey();
-            } while (!ganar);
+            } 
+            while (!ganar);
           
-            if(a == 2)
+            if (a == 2)
             {
                 Console.WriteLine("Ha ganado el jugador " + jugador1.Nombre+" con el luchador "+luchador1.Nombre);
 
@@ -286,7 +290,7 @@ namespace Combate_por_turnos
                 luchador2.Perder();
 
             }
-            else if(HayJugadorIA)
+            else if (HayJugadorIA)
             {
                 Console.WriteLine("Ha ganado el jugador " + jugadorIA.Nombre + " con el luchador " + luchador2.Nombre);
                 
