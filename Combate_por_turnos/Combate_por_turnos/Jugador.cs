@@ -8,14 +8,14 @@ namespace Combate_por_turnos
     {
         public string Nombre;
         protected Luchador luchadorActual;
-        public Jugador(Luchador luchador)
+        public Jugador (Luchador luchador)
         {
             Console.WriteLine("Dame tu nombre jugador");
             Nombre = Console.ReadLine();
             luchadorActual = luchador;
         }
 
-        public Jugador(string nombre, Luchador luchador)
+        public Jugador (string nombre, Luchador luchador)
         {
             Nombre = nombre;
             luchadorActual = luchador;
@@ -33,7 +33,9 @@ namespace Combate_por_turnos
                 {
                     Console.WriteLine("No es una respuesta valida.");
                 }
-            } while (!numOpcion || respuesta < 1 || respuesta > 2);
+            } 
+            while (!numOpcion || respuesta < 1 || respuesta > 2);
+            
             return respuesta;
         }
 
@@ -49,7 +51,9 @@ namespace Combate_por_turnos
                 {
                     Console.WriteLine("No es una respuesta valida.");
                 }
-            } while (!numOpcion || respuesta < 1 || respuesta > luchadorActual.Nivel || luchadorActual.PrecioAtaques[respuesta - 1] > luchadorActual.Stamina);
+            } 
+            while (!numOpcion || respuesta < 1 || respuesta > luchadorActual.Nivel || luchadorActual.PrecioAtaques[respuesta - 1] > luchadorActual.Stamina);
+            
             return respuesta;
         }
     }
